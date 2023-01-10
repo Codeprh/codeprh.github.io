@@ -76,6 +76,25 @@
       }
     }
   })
+
+  const defaultJson = {
+    "name": "noahpan-json",
+    "features": [
+      {
+        "name": "时间戳格式化",
+        "demo": 1672887903000
+      },
+      {
+        "name": "鼠标hover图片预览",
+        "demo": "https://img.noahpan.cn/img-2022/202301051035831.svg"
+      }
+    ],
+    "github": "https://github.com/Codeprh/codeprh.github.io"
+  }
+
+  editor1.updateText('')
+  editor2.update(defaultJson)
+  editor2.expandAll()
 </script>
 </body>
 </html>
